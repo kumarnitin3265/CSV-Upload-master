@@ -1,0 +1,22 @@
+{
+  "name": "csv_upload",
+  "version": "1.0.0",
+  "description": "This is application where we upload the csv file and then check the data in it after exporting out the data contained in csv file",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "author": "Nitin Kumar",
+  "license": "ISC",
+  "dependencies": {
+    "csv-parser": "^3.0.0",
+    "dotenv": "^16.4.5",
+    "ejs": "^3.1.10",
+    "express": "^4.19.2",
+    "express-ejs-layouts": "^2.5.1",
+    "mongoose": "^8.5.3",
+    "multer": "^1.4.5-lts.1",
+    "nodemon": "^3.1.4"
+  }
+}
